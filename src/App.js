@@ -1,6 +1,6 @@
 
 import './App.css';
-import ExpensesItem from './components/ExpensesItem';
+import {Button} from './components/button/Button'
 
 function App() {
 
@@ -10,7 +10,8 @@ function App() {
 
   return (
     <div className="App">
-      <ExpensesItem/>
+      <Button title='+'/>
+      <Button title='-'/>
     </div>
   );
 }
