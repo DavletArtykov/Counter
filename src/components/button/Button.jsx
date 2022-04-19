@@ -8,3 +8,4 @@ export const Button = (props) =>{
         <button className='btn' >{title}</button>
     )
 }
+
