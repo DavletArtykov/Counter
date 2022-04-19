@@ -11,6 +11,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Сounter</h1>
        <Count counter ='0' />
       <Button title='+'/>
       <Button title='-'/>
