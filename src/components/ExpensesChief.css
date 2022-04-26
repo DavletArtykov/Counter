@@ -1,0 +1,75 @@
+
+.container-card{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 1px 10px;
+
+    
+}
+
+.container-card:nth-child(1)  div{
+    background-color: black;
+    border-bottom: 1.5px solid black;
+    height: 60px;
+    color: white;
+    border-radius: 9px;
+
+}
+
+.container-card:nth-child(2)  div{
+    background-color: rgb(255, 163, 163);
+    border-bottom: 1.5px solid black;
+    height: 60px;
+    color: white;
+    border-radius: 9px;
+}
+
+.container-card:nth-child(3)  div{
+    background-color: rgb(163, 244, 255);
+    border-bottom: 1.5px solid black;
+    height: 60px;
+    color: white;
+    border-radius: 9px;
+}
+
+.container-card:nth-child(4)  div{
+    background-color: rgb(75, 42, 238);
+    border-bottom: 1.5px solid black;
+    height: 60px;
+    color: white;
+    border-radius: 9px;
+}
+.container-card:nth-child()  div{
+    background-color: rgb(75, 42, 238);
+    border-bottom: 1.5px solid black;
+    height: 60px;
+    color: white;
+    border-radius: 9px;
+}
+
+.container-card div {
+    display: flex;
+    justify-content: center;
+
+}
+.container-card img{
+    position: relative;
+    top: -25px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.container-card:hover{
+    transition: all 0.3s ease;
+    width: 210px;
+    height: 210px;
+}
+.container-card:active{
+    background-color: rgb(255, 244, 225);
+  
+}
